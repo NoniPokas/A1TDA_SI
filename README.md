@@ -62,3 +62,43 @@ Qual a sua idade? -5
 Idade '-5'? Isso não é válido. Tente de novo.
 
 ==============================================
+
+---
+
+## 2. Contador de Números Pares (Laços For/While)
+
+### 📝 Descrição
+Exercício para praticar estruturas de repetição. O programa implementa duas versões de um contador que exibe todos os números pares entre 1 e 100.
+
+**Conceitos aplicados:**
+* Laço de repetição `for` com `range()`.
+* Laço de repetição `while` com controle manual de contador.
+* Operador lógico (módulo `%`) para verificar se um número é par.
+
+### 🚀 Como executar
+No terminal, execute o script:
+
+### Exemplo de Uso:
+
+==============================================
+     Contador de Pares com 'for' e 'while'    
+==============================================
+
+--- Números Pares (usando FOR) ---
+2
+4
+6
+( ... )
+98
+100
+
+--- Números Pares (usando WHILE) ---
+2
+4
+6
+( ... )
+98
+100
+
+==============================================
+Fim da contagem!
