@@ -75,9 +75,6 @@ Exercício para praticar estruturas de repetição. O programa implementa duas v
 * Laço de repetição `while` com controle manual de contador.
 * Operador lógico (módulo `%`) para verificar se um número é par.
 
-### 🚀 Como executar
-No terminal, execute o script:
-
 ### Exemplo de Uso:
 
 ==============================================
@@ -136,4 +133,48 @@ Digite o nome do aluno: fim
 - Mariana
 - Mileny
 
+==============================================
+---
+
+## 4. Cadastro de Produtos (Dicionários)
+
+### 📝 Descrição
+Sistema simples para cadastrar produtos (nome) e seus respectivos preços (valor). Este exercício demonstra o uso de **dicionários** (`dict`) para criar um mapeamento chave-valor.
+
+**Conceitos aplicados:**
+* **Dicionários**: Criação de um dicionário vazio `{}`.
+* **Inserção de Dados**: `dicionario[chave] = valor`.
+* **Tratamento de Erros**: Uso de `try...except ValueError` para garantir que o preço seja um número.
+* **Verificação de Chave**: Uso do `in` para checar se um produto já existe.
+* **Iteração com `.items()`**: Para percorrer o dicionário e obter tanto a chave (nome) quanto o valor (preço).
+* **Formatação de Strings**: Uso de `f-strings` com `:.2f` para formatar o preço.
+
+==============================================
+     Cadastro de Produtos (usando Dict)     
+=============================================="
+Digite 'fim' no nome do produto para parar.
+
+Digite o nome do produto: Teclado
+Digite o preço para 'Teclado': R$ 150.90
+Produto 'Teclado' - R$ 150.90 cadastrado!
+
+Digite o nome do produto: Mouse
+Digite o preço para 'Mouse': R$ 80
+Produto 'Mouse' - R$ 80.00 cadastrado!
+
+Digite o nome do produto: Monitor
+Digite o preço para 'Monitor': R$ abc
+Erro: O preço deve ser um número (ex: 10.50). Produto não cadastrado.
+
+Digite o nome do produto: Monitor
+Digite o preço para 'Monitor': R$ 700.00
+Produto 'Monitor' - R$ 700.00 cadastrado!
+
+Digite o nome do produto: fim
+
+==============================================
+--- Lista Final de Produtos (3) ---
+Produto: Teclado | Preço: R$ 150.90
+Produto: Mouse | Preço: R$ 80.00
+Produto: Monitor | Preço: R$ 700.00
 ==============================================
