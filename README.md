@@ -102,3 +102,37 @@ No terminal, execute o script:
 
 ==============================================
 Fim da contagem!
+
+---
+
+## 3. Cadastro de Alunos (Listas)
+
+### 📝 Descrição
+Programa que demonstra o uso de listas para armazenar dados de forma dinâmica. O usuário pode inserir quantos nomes de alunos desejar. O programa utiliza um laço `while True` para a entrada contínua e uma condição de parada (a palavra 'fim') para encerrar a coleta de dados.
+
+**Conceitos aplicados:**
+* **Listas**: Criação de uma lista vazia `[]`.
+* **Método `.append()`**: Para adicionar novos itens ao final da lista.
+* **Laço `while True` com `break`**: A forma mais comum de criar um loop que espera uma entrada específica do usuário.
+* **Laço `for`**: Para iterar (percorrer) a lista e exibir cada item.
+* **Função `len()`**: Para contar o número de itens na lista.
+
+==============================================
+     Cadastro de Alunos (usando Listas)     
+==============================================
+Digite os nomes dos alunos. Digite 'fim' para parar.
+Digite o nome do aluno: Ana
+'Ana' adicionado. (Total: 1)
+Digite o nome do aluno: Bruno
+'Bruno' adicionado. (Total: 2)
+Digite o nome do aluno: Carla
+'Carla' adicionado. (Total: 3)
+Digite o nome do aluno: fim
+
+==============================================
+--- Lista Final de Alunos Cadastrados (3) ---
+- Pedro
+- João Miguel
+- Mariana
+- Mileny
+==============================================
