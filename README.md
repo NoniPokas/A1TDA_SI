@@ -3,7 +3,7 @@
 
 ## 1. Sistema de Verificação de Idade
 
-### 📝 Descrição
+###  Descrição
 Um programa interativo que simula o controle de entrada de uma balada.
 
 **O que usamos:**
@@ -11,13 +11,13 @@ Um programa interativo que simula o controle de entrada de uma balada.
 * Tratamento de erros com `try` e `except` (para evitar que letras quebrem o programa).
 * Entrada e saída de dados (`input`, `print`, `f-strings`).
 
-### 📝 Exemplos de Entrada e Saída
+###  Exemplos de Entrada e Saída
 ==============================================
      Sistema de Entrada 
 ==============================================
 Qual a sua idade? 20
 
-[APROVADO] ✅
+[APROVADO] 
 Idade: 20. Acesso total. Pode pegar a pulseira VIP.
 
 ==============================================
@@ -27,7 +27,7 @@ Idade: 20. Acesso total. Pode pegar a pulseira VIP.
 ==============================================
 Qual a sua idade? 17
 
-[APROVADO COM RESTRIÇÃO] ⚠️
+[APROVADO COM RESTRIÇÃO] ️
 Idade: 17. Acesso à pista, mas longe do bar. Pulseira Jovem.
 
 ==============================================
@@ -37,7 +37,7 @@ Idade: 17. Acesso à pista, mas longe do bar. Pulseira Jovem.
 ==============================================
 Qual a sua idade? 14
 
-[BARRADO] ⛔
+[BARRADO] 
 Idade: 14. Desculpe, festa só para maiores de 16.
 
 ==============================================
@@ -47,7 +47,7 @@ Idade: 14. Desculpe, festa só para maiores de 16.
 ==============================================
 Qual a sua idade? vinte
 
-[ERRO DE ENTRADA] ❌
+[ERRO DE ENTRADA] 
 O que você digitou ('vinte') não é um NÚMERO.
 Rode o programa de novo e digite sua idade com números.
 
@@ -58,7 +58,7 @@ Rode o programa de novo e digite sua idade com números.
 ==============================================
 Qual a sua idade? -5
 
-[IDADE INEXISTENTE] 🤨
+[IDADE INEXISTENTE] 
 Idade '-5'? Isso não é válido. Tente de novo.
 
 ==============================================
